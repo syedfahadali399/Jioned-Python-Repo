@@ -57,18 +57,48 @@
 
 
 
-new = ["orange", "banana", "grape", "apple","cherry", "pineapple","papaya","lime"]
-# half_list = len(new) // 2
-# print(new[0: half_list])
+# new = ["orange", "banana", "grape", "apple","cherry", "pineapple","papaya","lime"]
+# # half_list = len(new) // 2
+# # print(new[0: half_list])
 
-print(new[1:4:2])
+# print(new[1:4:2])
 
 
 # to add nested list do this
-appen1 = [1,2,3,4,5,6]
+# appen1 = [1,2,3,4,5,6]
 
-append2 = [7,8,9]
+# append2 = [7,8,9]
 
 
-appen1.append(append2)
-print(appen1)
+# appen1.append(append2)
+# print(appen1)
+
+vegatable = ["ladyfinger", "Capsicam", "carraot", "Potatao", "Ginger", "Tomato"]
+
+lenght = len(vegatable) // 2
+vegatable.insert(lenght, "wasay")
+print(vegatable)
+
+save = vegatable.pop()
+print(save)
+
+new_save = ["1","2","3", save]
+new_save.insert(1,save)
+new_save.remove("Tomato")
+print(new_save)
+# print(dir(list))
+
+quiz = ["aloo", "bhendi", "marchi", "non"]
+
+new_quiz = quiz.remove("aloo")
+print(new_quiz)
+
+print(quiz)
+
+fruits = ["apple", "bananan", "cherry"]
+frruits_2 = fruits
+frruits_2.append("mango")
+print(fruits[-1], frruits_2)
+
+varss = frruits_2.copy()
+print(varss)
